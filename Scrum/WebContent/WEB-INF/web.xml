@@ -9,4 +9,15 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  
+  <servlet>
+	<servlet-name>GestionTestJDBC</servlet-name>
+	<servlet-class>scrum.servlets.GestionTestJDBC</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>GestionTestJDBC</servlet-name>
+	<url-pattern>/testjdbc</url-pattern>
+</servlet-mapping>
 </web-app>
