@@ -18,6 +18,6 @@
 
 <servlet-mapping>
 	<servlet-name>GestionTestJDBC</servlet-name>
-	<url-pattern>/testjdbc</url-pattern>
+	<url-pattern>index</url-pattern>
 </servlet-mapping>
 </web-app>
